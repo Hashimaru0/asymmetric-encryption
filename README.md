@@ -1,11 +1,11 @@
 # Asymmetric encryption
 
-Script for symmetrically encrypting files and encrypting that key asymmetrically to facilitate secure file sharing.
+Script for symmetrically encrypting files using a key and asymmetrically encrypting that key to facilitate secure file sharing.
 
 
 
 ## Usage
-Files inside toEncrypt folder get encrypted using symmetric encryption and placed inside encrypted folder.
+Files inside toEncrypt folder get encrypted and placed inside encrypted folder.
 ```python
 from cryptography.fernet import Fernet
 import rsa
